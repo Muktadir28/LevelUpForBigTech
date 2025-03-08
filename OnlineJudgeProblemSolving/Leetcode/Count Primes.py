@@ -1,10 +1,8 @@
-# Here in this problem we are asked to find the number of primes between 1 to n - 1
+# Here in this problem we are given an integer n we have to find the number of primes between 1 to n - 1
 # The strategy we will follow here is that
-# we will iterate from 1 to n - 1
-# for each number we will check if it is prime number or not
-# if yes we increase the count of number of primes
-# after the end of iteration we will have the count of prime numbers
-# we will return the prime number count
+# We will check primality of each number between 1 and n - 1
+# if current number is a prime number we increase the count of primes by 1
+# at the end of the primality test we return the count of prime numbers
 
 # Now one question remains how would we check if a number is prime or not
 # If the number is 1 than it is definately not a prime number
